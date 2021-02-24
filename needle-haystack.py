@@ -55,6 +55,7 @@ def detectNeedle(needle,haystack):
 if __name__ == "__main__":
 	
 	for haystack in haystacks:
+		
 		if detectNeedle(needle,haystack) is True:
 			print(haystack)
 			print("Match found!")
